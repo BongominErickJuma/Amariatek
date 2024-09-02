@@ -1226,7 +1226,7 @@ section {
 
 .about .content .statement {
   background: rgba(238, 151, 151, 0.4);
-  height: 10rem;
+  height: 11rem;
   padding: 2rem 3rem;
   border-radius: 3rem 3rem 0 0;
   border-bottom: 7px solid var(--light-maroon);
@@ -1234,7 +1234,8 @@ section {
 
 @media (max-width: 768px) {
   .about .content .statement {
-    height: 15rem;
+
+    height: 19rem;
     padding: 1rem 2rem;
     border-radius: 2rem 2rem 0 0;
     border-bottom: 7px solid var(--light-maroon);
