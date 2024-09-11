@@ -77,7 +77,10 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
   line-height: 1.5;
-  font-size: 2rem;
+  font-size: 1.17rem;
+}
+body p {
+  font-size: 1.17rem !important;
 }
 
 a {
@@ -582,7 +585,6 @@ h6 {
   .navmenu .listing-dropdown ul li a,
   .navmenu .listing-dropdown ul li:hover > a {
     padding: 10px 20px;
-    font-size: 15px;
     color: var(--nav-dropdown-color);
     background-color: var(--nav-dropdown-background-color);
   }
@@ -1150,7 +1152,6 @@ section {
 
 .about .content ul i {
   position: absolute;
-  font-size: 20px;
   left: 0;
   top: -3px;
   color: var(--accent-color);
@@ -1209,13 +1210,11 @@ section {
 .about h4 {
   font-weight: 700;
   margin-bottom: 5px;
-  font-size: 20px;
   color: var(--dk-blue);
 }
 
 .about p {
   margin: 10px 0 0 0;
-  font-size: 14px;
 }
 
 .about .content .line {
@@ -1462,7 +1461,6 @@ section {
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 14px;
   margin-bottom: 0;
 }
 
