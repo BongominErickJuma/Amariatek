@@ -5,6 +5,7 @@ const id = parseInt(params.get("id"));
 fetch("assets/json/data.json")
   .then((response) => response.json()) // Parse the JSON file into a JavaScript object
   .then((data) => {
+    console.log(data)
     // Use the data as needed
     const program = data.programs[id - 1];
     const programName = document.getElementById("program-name");
