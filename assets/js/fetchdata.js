@@ -2,9 +2,6 @@ const windowURL = new URL(window.location.href);
 const params = new URLSearchParams(windowURL.search);
 const id = parseInt(params.get("id"));
 
-alert("am Connected");
-
-
 fetch("assets/json/data.json")
   .then((response) => response.json()) // Parse the JSON file into a JavaScript object
   .then((data) => {
