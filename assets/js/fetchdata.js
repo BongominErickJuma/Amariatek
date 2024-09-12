@@ -2,6 +2,8 @@ const windowURL = new URL(window.location.href);
 const params = new URLSearchParams(windowURL.search);
 const id = parseInt(params.get("id"));
 
+alert("am Connected");
+
 
 fetch("https://bongominerickjuma.github.io/Amariatek/assets/json/data.json")
   .then((response) => response.json()) // Parse the JSON file into a JavaScript object
