@@ -1,0 +1,422 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "program_name": "Level Up",
+      "problem": {
+        "description": "According to the Uganda National Planning Authority (NPA), 41% of the Ugandan population faces unemployment and limited educational opportunities. Among them, young girls and women constitute 60%. This significant unemployment rate, coupled with limited access to quality education, leaves many adolescents and youth, especially in marginalized communities, without the skills and opportunities needed to secure decent work and improve their livelihoods."
+      },
+      "solution": {
+        "description": "Level Up focuses on helping out-of-school adolescents and youth transition to decent work. This program is designed to address the critical gap in education and employment opportunities by providing targeted support through structured bootcamps and mentorship."
+      },
+      "program_structure": [
+        {
+          "name": "Bootcamps",
+          "description": [
+            {
+              "name": "Ideation Phase",
+              "description": "Participants are encouraged to brainstorm and develop innovative business ideas and social innovations that address community problems while creating job opportunities."
+            },
+            {
+              "name": "Mentorship Phase",
+              "description": "Experienced mentors provide guidance and support to help participants refine their ideas and develop viable business plans."
+            },
+            {
+              "name": "Incubation Phase",
+              "description": "Participants receive hands-on support to bring their ideas to life, ensuring they achieve product-market fit and are ready for the market."
+            }
+          ]
+        }
+      ],
+      "program_goals": [
+        {
+          "name": "Empower Youth",
+          "description": "Equip adolescents and youth with the skills and knowledge needed to develop and implement business ideas and social innovations."
+        },
+        {
+          "name": "Create Jobs",
+          "description": "Foster entrepreneurship and job creation within marginalized communities."
+        },
+        {
+          "name": "Promote Economic Independence",
+          "description": "Help participants transition from unemployment to self-sufficiency through sustainable business ventures."
+        }
+      ],
+
+      "achievements": [
+        {
+          "name": "Youth Trained",
+          "description": "Over 1051 youth have participated in our bootcamps, gaining valuable skills and knowledge."
+        },
+        {
+          "name": "Businesses Launched",
+          "description": "35 new business ventures have been successfully launched by program participants."
+        },
+        {
+          "name": "Community Impact",
+          "description": "Numerous social innovations have been implemented, addressing key community challenges and creating job opportunities."
+        }
+      ],
+      "stories_of_impact": [
+        {
+          "name": "Odyek Huron",
+          "story": "Odyek transitioned from traditional bricklaying to an innovative approach by utilizing plastic waste to produce bricks and pavers. This not only offers a sustainable alternative to conventional methods but also scales his eco-friendly business, contributing to environmental conservation and economic growth."
+        },
+        {
+          "name": "Junior",
+          "story": "Junior and his team tackled the challenge of biodegradable waste by transforming restaurant leftovers into organic fertilizers. This initiative turns a common problem into a profitable solution, promoting sustainable agriculture and reducing waste."
+        },
+        {
+          "name": "Hellen",
+          "story": "Hellen introduced a multipurpose waterproof backpack, ensuring that students can make their way to school regardless of the weather. This innovation supports uninterrupted education and enhances the resilience of students in her community."
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Akello Rebbeca",
+          "testimonial": "I would like to thank Amariatek Foundation and their coaches for the love and care they showed us the youth of Ajia Parish. The training went on well and I am able to start my own business. I learnt so many skills, knowledge and how to critically think. May God bless Amariatek Foundation Uganda."
+        },
+        {
+          "name": "Ayugi Lilian",
+          "testimonial": "I want to thank the coaches and trainers on behalf of Amariatek Foundation Uganda for sharing the skills and knowledge with us. I liked the training because I realised I can do a lot of businesses with challenges the community faces. Amariatek Foundation Uganda helped me and other youth develop solutions to any challenge and I can generate money. Big ups Amariatek Foundation Uganda. Receive my blessings."
+        },
+        {
+          "name": "Otiti Mark",
+          "testimonial": "I want to thank Amariatek Foundation Uganda for the training. They were friendly and gave us marvellous skills on how to run businesses and how to identify problems in our community. This has greatly improved the positive thinking on how youth look at things in communities. This will eventually help in ending crimes. Thank you Amariatek Foundation Uganda for the kind heart and love to help Ajia youth. May God bless you."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "program_name": "Thrive at Work",
+      "problem": {
+        "description": "Uganda has the second youngest population in the world, with more than 78% of the population below the age of 30. Despite this youthfulness, a significant portion of the young labor force is neither in education nor any form of employment. The employment landscape in Uganda is shifting, with a growing emphasis on soft skills. According to a 2022 report by the Federation of Uganda Employers and the International Labour Organization, 80% of employers now prioritize skills such as innovation, problem-solving, and teamwork. Annually, over 400,000 individuals graduate from higher education institutions in Uganda, yet an estimated 280,000 find themselves unemployed or underemployed. This highlights a critical mismatch between the skills taught in educational institutions and those required by employers. The demand for 21st-century skills is rapidly increasing as the job market evolves. According to UNICEF, young people in Uganda must navigate a transforming world where technology, migration, climate change, and rapidly changing job markets are reshaping society. Despite this, many adolescents and youth lack essential skills such as innovation, critical thinking, communication, creativity, teamwork, and collaboration."
+      },
+      "solution": {
+        "description": "Thrive at Work focuses on helping adolescents and youth acquire essential 21st-century skills that are highly demanded in the workplace. Our program uses real-world applications and projects to allow participants to practice these skills. When they are ready, we match them with employment opportunities in their chosen fields and continue to offer career guidance to maximize their productivity and value in the workplace."
+      },
+      "program_structure": [
+        {
+          "name": "Skill Development",
+          "description": [
+            {
+              "name": "",
+              "description": "The core of the Thrive at Work program is its focus on developing essential 21st-century skills through practical, hands-on learning experiences. Participants engage in projects that simulate real-world challenges, allowing them to apply and hone their skills in a supportive environment."
+            }
+          ]
+        },
+        {
+          "name": "Employment Matching",
+          "description": [
+            {
+              "name": "Job Placement",
+              "description": "Connecting participants with employers who value their newly acquired skills."
+            },
+            {
+              "name": "Career Guidance",
+              "description": "Providing ongoing support and advice to help participants maximize their productivity and career growth."
+            }
+          ]
+        }
+      ],
+      "program_goals": [
+        {
+          "name": "Equip Youth",
+          "description": "Provide adolescents and youth with the skills needed to succeed in the modern workplace."
+        },
+        {
+          "name": "Facilitate Employment",
+          "description": "Help participants secure meaningful employment opportunities in their chosen fields."
+        },
+        {
+          "name": "Promote Career Growth",
+          "description": "Offer continuous career guidance to ensure participants thrive and grow in their careers."
+        }
+      ],
+
+      "achievements": [
+        {
+          "name": "Youth Trained",
+          "description": "Over 1859 youth have participated in our Thrive at Work program, gaining essential 21st-century skills."
+        },
+        {
+          "name": "Employment Placements",
+          "description": "265 participants have been successfully placed in jobs that match their skills and interests."
+        },
+        {
+          "name": "Career Growth",
+          "description": "Participants have reported significant improvements in their workplace productivity and career satisfaction."
+        }
+      ],
+      "stories_of_impact": [
+        {
+          "name": "Liberty Yumaru",
+          "story": "Liberty Yumaru’s journey with Amariatek began with curiosity and hope. Eager to unlock her potential, she joined the program, finding the sessions both educational and deeply inspiring. Through various activities, Liberty discovered her strengths and cultivated a strong sense of self-love, empowerment, and confidence. The learning process enhanced her communication and leadership skills, instilling a deep sense of purpose. Reflecting on her experience, Liberty urges others to embark on this life-changing journey. “Trust me; your future self will thank you for it,” she says. Today, Liberty is excelling in her role at a bank, applying the skills and confidence gained from the program daily. Her career growth and personal development are testaments to the profound impact of the Amariatek program."
+        },
+        {
+          "name": "IMANI BARHAME GEDEON",
+          "story": "As the founder and CEO of Lamuka Innovation Center in the Nakivale Refugee Settlement, IMANI BARHAME GEDEON always believed in the potential of every individual. However, the path to success was filled with challenges and uncertainties. Everything changed when IMANI participated in a program organized by the Amariatek Foundation. Through this training, IMANI gained valuable insights, practical knowledge, and essential tools to navigate the complexities of entrepreneurship. The program provided the skills needed to thrive in the world of work. Reflecting on this transformative journey, IMANI says, “The support from Amariatek was instrumental in turning my vision into reality. It gave me the confidence to overcome obstacles and make a meaningful impact.” Today, Lamuka Innovation Center stands as a beacon of hope, empowering refugees and fostering innovation. IMANI’s journey with Amariatek not only transformed personal and professional life but also created lasting change within the refugee community."
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Ruth Nansaasi",
+          "testimonial": "The program has been life-changing, and it’s something I wish had happened earlier when I was still at university. The program instilled confidence in me, helping me discover myself and build self-awareness through my values. I have acquired essential skills and my communication, critical thinking, and creativity skills have improved, and now, when I look in the mirror, I admire the person I have become."
+        },
+        {
+          "name": "Patricia",
+          "testimonial": "When I started the program with Amariatek Foundation, it brought joy, happiness, and love as I got to meet and interact with many people. During the process, I learned and understood so much, which helped me relieve the pressure I had. Thanks to Amariatek, I improved my communication, collaboration, and critical thinking skills. I have also discovered inner strengths I never knew I had."
+        },
+        {
+          "name": "Abaga Juli Ann",
+          "testimonial": "This training program has helped me to discover the source of my character and behaviors on top of all the skills that I was able to learn."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "program_name": "I Thrive",
+      "problem": {
+        "description": "Uganda has the second youngest population in the world, with more than 78% of its population below the age of 30. Despite this youthfulness, many adolescents and youth face significant challenges as they transition into adulthood. These challenges include mental health breakdowns, alcohol and substance abuse, and teenage pregnancies. Mental Health: Approximately 22.9% of children and 24.2% of adults in Uganda suffer from mental disorders. Depression and anxiety are prevalent, with 4.6% of the population experiencing depression and 2.9% dealing with anxiety. Substance Abuse: Substance abuse is a significant issue, with 60-71% of school-going children (ages 12 to 24) using addictive substances. Alcohol is the most commonly abused substance, with 23.3% of adolescents having used it. Teenage Pregnancies: According to the Uganda Bureau of Statistics, 25% of Ugandan girls become pregnant by age 19. This high rate of teenage pregnancies is a major concern, leading to school dropouts and limiting future opportunities for young girls."
+      },
+      "solution": {
+        "description": "The 'I Thrive' program focuses on equipping adolescents and youth with essential life skills to help them transition into adulthood and navigate the challenges of adolescence. We support both in-school and out-of-school adolescents and youth, providing them with the skills and guidance they need to tackle day-to-day challenges."
+      },
+      "program_structure": [
+        {
+          "name": "Skill Development",
+          "description": [
+            {
+              "name": "",
+              "description": "The core of the I Thrive program is its focus on developing essential life skills through practical, hands-on learning experiences. Participants engage in activities that build self-esteem, teach them about their rights, and help them develop skills in personal finance, creativity, innovation, problem-solving, and emotional intelligence. These activities are designed to be interactive and engaging, ensuring that participants can apply what they learn in real-world situations."
+            }
+          ]
+        },
+        {
+          "name": "Workshops And Monitoring",
+          "description": [
+            {
+              "name": "",
+              "description": "We deliver the program through a series of workshops and mentoring sessions, following standards set by the United Nations Office on Drugs and Crime (UNODC) and other best practices for life skills education. Our workshops are held weekly and cover a range of topics."
+            },
+            {
+              "name": "Topics",
+              "description": ""
+            },
+            {
+              "name": "Self-Esteem and Confidence Building",
+              "description": "Activities and discussions that help participants develop a positive self-image and confidence in their abilities."
+            },
+            {
+              "name": "Rights and Responsibilities",
+              "description": "Education on the rights of adolescents and how they can stand up for and protect these rights."
+            },
+            {
+              "name": "Personal Finance",
+              "description": "Practical lessons on budgeting, saving, and managing money effectively."
+            },
+            {
+              "name": "Creativity and Innovation",
+              "description": "Encouraging creative thinking and innovation through problem-solving exercises and projects."
+            },
+            {
+              "name": "Emotional Intelligence",
+              "description": "Teaching participants to understand and manage their emotions, as well as empathize with others."
+            },
+            {
+              "name": "Communication Skills",
+              "description": "Enhancing verbal and written communication to ensure clear and effective interaction in various settings."
+            },
+            {
+              "name": "Problem-Solving and Decision Making",
+              "description": "Teaching participants to think critically and make informed decisions, as well as how to handle difficult situations and make tough choices."
+            }
+          ]
+        }
+      ],
+      "program_goals": [
+        {
+          "name": "Prevent Mental Health Breakdowns",
+          "description": "Equip adolescents with the tools to manage stress and maintain mental well-being."
+        },
+        {
+          "name": "Reduce Substance Abuse",
+          "description": "Provide education and support to prevent substance abuse."
+        },
+        {
+          "name": "Prevent Teenage Pregnancies",
+          "description": "Educate youth on sexual health and provide guidance to prevent early pregnancies."
+        },
+        {
+          "name": "Build Self-Esteem",
+          "description": "Help boys and girls develop a positive self-image and confidence."
+        },
+        {
+          "name": "Teach Rights and Responsibilities",
+          "description": "Educate adolescents about their rights and how to stand up for and protect them."
+        },
+        {
+          "name": "Develop Essential Life Skills",
+          "description": "Provide training in personal finance, creativity, innovation, problem-solving, and emotional intelligence."
+        },
+        {
+          "name": "Promote Purpose and Responsibility",
+          "description": "Guide young people on how to live a life of purpose and responsibility."
+        }
+      ],
+      "achievements": [
+        {
+          "name": "Youth Supported",
+          "description": "Over 3,760 adolescents and youth have participated in our I Thrive program, gaining essential life skills."
+        },
+        {
+          "name": "Mental Health Improvement",
+          "description": "Participants have reported significant improvements in their mental well-being."
+        },
+        {
+          "name": "Reduction in Substance Abuse",
+          "description": "There has been a noticeable decrease in substance abuse among participants."
+        },
+        {
+          "name": "Prevention of Teenage Pregnancies",
+          "description": "The program has successfully helped reduce the rate of teenage pregnancies in the communities we serve."
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Patience Kyomugisha",
+          "position": "Student",
+          "testimonial": "Learning about Nelson Mandela’s forgiveness inspired me to reconcile with my friend. It’s powerful how one story can mend friendships."
+        },
+        {
+          "name": "Akuron Esther Manjeri",
+          "position": "Student",
+          "testimonial": "I appreciate this training so much because it helped me to know when to react to different emotions."
+        },
+        {
+          "name": "Tushabe James Duk",
+          "position": "Student",
+          "testimonial": "The training has created a strong impact on me in such a way that I now know how to stand and overcome my fears and sorrows."
+        },
+        {
+          "name": "Victor",
+          "position": "Student",
+          "testimonial": "Discovering my ability to innovate has been a game-changer. I’ve learned to think outside the box and feel empowered to create unique ideas."
+        },
+        {
+          "name": "Tr. Nankwesi Grace",
+          "position": "Teacher",
+          "testimonial": "We’ve seen the benefits of the program in promoting integrity among our learners and look forward to its continuation."
+        },
+        {
+          "name": "Tr. Wekomba Rogers",
+          "position": "Teacher",
+          "testimonial": "Amariatek’s engaging mentorship has significantly enhanced our pupils’ learning experience."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "program_name": "Elevate",
+      "problem": {
+        "description": "According to the Uganda Registration Services Bureau, over 75% of new businesses fail within the first two years of operation in Uganda. A survey by the Federation of Small and Medium Enterprises found that 36% of small businesses are at risk of closing due to cash flow and operational challenges. The high failure rate is often attributed to a lack of proper business management skills, limited access to financial resources, and inadequate support systems."
+      },
+      "solution": {
+        "description": "Elevate is designed to help and support small businesses through targeted training, mentorship, and professional support, ensuring they become more sustainable and profitable. Under the theme 'Small Businesses Must Make Money,' Elevate focuses on equipping participants with essential business skills and knowledge in marketing, financial management, leadership development, and operational efficiency."
+      },
+      "program_structure": [
+        {
+          "name": "Trainings",
+          "description": [
+            {
+              "name": "",
+              "description": "Comprehensive workshops and training sessions covering essential business skills and knowledge. These sessions are designed to be interactive and practical, providing participants with the tools they need to succeed."
+            }
+          ]
+        },
+        {
+          "name": "Mentorship",
+          "description": [
+            {
+              "name": "",
+              "description": "One-on-one and group mentorship from experienced business professionals to guide participants through challenges and opportunities, providing personalized advice and support."
+            }
+          ]
+        },
+        {
+          "name": "Professional Support",
+          "description": [
+            {
+              "name": "",
+              "description": "Access to a network of professionals offering advice and support in marketing, finance, and operations, helping participants build connections and gain insights from industry experts."
+            }
+          ]
+        }
+      ],
+      "program_goals": [
+        {
+          "name": "Business Sustainability",
+          "description": "Equip small business owners with the skills and knowledge needed to run sustainable and profitable businesses."
+        },
+        {
+          "name": "Profitability",
+          "description": "Help businesses implement strategies that increase revenue and profitability."
+        },
+        {
+          "name": "Growth",
+          "description": "Support businesses in scaling their operations and expanding their market reach."
+        }
+      ],
+      "achievements": [
+        {
+          "name": "Business Supported",
+          "description": "Over [Insert Number] small businesses have received training and mentorship through the Elevate program."
+        },
+        {
+          "name": "Revenue Growth",
+          "description": "Participating businesses have reported an average revenue increase of [Insert Percentage]."
+        },
+        {
+          "name": "Sustainability",
+          "description": "A significant percentage of businesses have remained operational and profitable beyond the critical two-year mark."
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Denis Bua Oscar",
+          "position": "Executive Director of Mtindo Network Development Initiative",
+          "testimonial": "Being coached by Amariatek has been a transformative journey. Their guidance, wisdom, and unwavering support have propelled me towards my entrepreneurial goals with clarity and confidence."
+        },
+        {
+          "name": "Namulondo Manvuwa",
+          "position": "Student at St. Joseph Vocational Training Center",
+          "testimonial": "I did not know how I could budget for my business, but after this training, I can."
+        },
+        {
+          "name": "Kyazike Christine",
+          "position": "Student at St. Joseph Vocational Training Center",
+          "testimonial": "I wasn’t aware of team building, business planning, and management, but now I know these aspects."
+        },
+        {
+          "name": "Namusosa Lydia",
+          "position": "Student at St. Joseph Vocational Training Center",
+          "testimonial": "Before the training, I didn’t know the steps followed when coming up with a business, but at the end of the training, I knew all the steps and how to manage it."
+        }
+      ]
+    }
+  ],
+  "call_to_action": {
+    "donate": {
+      "description": "Your financial contributions help us fund essential programs, support youth initiatives, and provide the resources necessary for our projects. For example, a recent donation helped us provide seed funding to our young innovators. Every donation, big or small, makes a significant impact.",
+      "action": "Donate Now"
+    },
+    "volunteer": {
+      "description": "Join us in making a direct impact by volunteering your time and expertise. Whether you can mentor a young entrepreneur, teach a skill, assist with fundraising efforts, or support youth projects, your involvement is valuable.",
+      "action": "Volunteer with Us"
+    },
+    "contribute_materials": {
+      "description": "Help us provide the necessary tools and resources for our programs. Donations of materials such as sewing machines, computers, or farming equipment can make a world of difference to the youth we serve.",
+      "action": "Contribute Materials"
+    }
+  }
+}

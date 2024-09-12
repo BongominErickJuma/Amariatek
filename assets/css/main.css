@@ -104,6 +104,11 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.sub-header {
+  color: var(--dk-blue);
+  text-transform: capitalize !important;
+}
+
 /* Pulsating Play Button
 ------------------------------*/
 .pulsating-play-btn {
@@ -1297,7 +1302,7 @@ section {
   padding: 30px;
   margin: 30px 15px;
   position: relative;
-  height: 350px;
+  min-height: 350px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
