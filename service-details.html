@@ -48,17 +48,31 @@
         >
           <div class="contact-info d-flex align-items-center">
             <i class="bi bi-envelope d-flex align-items-center"
-              ><a href="mailto:contact@example.com">contact@example.com</a></i
+              ><a href="mailto:contact@example.com"
+                >info@amariatekfoundation.org</a
+              ></i
             >
-            <i class="bi bi-phone d-flex align-items-center ms-4"
-              ><span>+1 5589 55488 55</span></i
-            >
+            <i class="bi bi-phone d-flex align-items-center ms-4"></i>
+            <span>+256-704-241-494 / +256-393-194-359</span>
           </div>
           <div class="social-links d-none d-md-flex align-items-center">
-            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/AmariatekF" target="_blank"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+            <a href="https://www.facebook.com/AmariatekF" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/amaritekfoundationofficial
+          "
+              target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/amariatek-foundation/"
+              target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -79,9 +93,9 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="services.html">Programs</a></li>
-              <li><a href="blog.html">Blog</a></li>
+
               <li><a href="contact.html">Contact</a></li>
-              <li><a href="#" class="btn-get-started">DONATE</a></li>
+              <li><a href="/donate.html" class="btn-get-started">DONATE</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
           </nav>
@@ -195,7 +209,13 @@
               </p>
             </div>
             <div class="col-xl-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#">Donate Now</a>
+              <!-- Donation Button -->
+              <a
+                class="cta-btn align-middle"
+                data-bs-toggle="modal"
+                data-bs-target="#donateModal"
+                >Donate Now</a
+              >
             </div>
           </div>
         </div>
@@ -211,7 +231,13 @@
               </p>
             </div>
             <div class="col-xl-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#">Volunteer Now</a>
+              <!-- Volunteer Button -->
+              <a
+                class="cta-btn align-middle"
+                data-bs-toggle="modal"
+                data-bs-target="#volunteerModal"
+                >Volunteer Now</a
+              >
             </div>
           </div>
         </div>
@@ -227,13 +253,481 @@
               </p>
             </div>
             <div class="col-xl-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#">Contribute Now</a>
+              <!-- Contribute Button -->
+              <a
+                class="cta-btn align-middle"
+                data-bs-toggle="modal"
+                data-bs-target="#contributeModal"
+                >Contribute Now</a
+              >
             </div>
           </div>
         </div>
       </section>
       <!-- /Call To Action Section -->
     </main>
+
+    <!-- Modals -->
+    <!-- Donate Now Modal -->
+    <div
+      class="modal fade"
+      id="donateModal"
+      tabindex="-1"
+      aria-labelledby="donateModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="donateModalLabel">Donate Now</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="donateName" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="donateName"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="donateEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="donateEmail"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="donatePhone" class="form-label">Phone Number</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="donatePhone"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="preferredContactDonate" class="form-label"
+                  >Preferred Method of Contact</label
+                ><br />
+                <input
+                  type="radio"
+                  name="preferredContactDonate"
+                  value="Email"
+                  required
+                />
+                Email
+                <input
+                  type="radio"
+                  name="preferredContactDonate"
+                  value="Phone"
+                />
+                Phone
+              </div>
+              <div class="mb-3">
+                <label for="donationAmount" class="form-label"
+                  >Donation Amount</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="donationAmount"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="paymentMethod" class="form-label"
+                  >Payment Method</label
+                ><br />
+                <input
+                  type="radio"
+                  name="paymentMethod"
+                  value="Credit Card"
+                  required
+                />
+                Credit Card
+                <input
+                  type="radio"
+                  name="paymentMethod"
+                  value="Bank Transfer"
+                />
+                Bank Transfer
+                <input type="radio" name="paymentMethod" value="Mobile Money" />
+                Mobile Money
+                <input type="radio" name="paymentMethod" value="Other" /> Other:
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Specify Other"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="recurringDonation" class="form-label"
+                  >Would you like to make this a recurring donation?</label
+                ><br />
+                <input
+                  type="radio"
+                  name="recurringDonation"
+                  value="Yes"
+                  required
+                />
+                Yes
+                <input type="radio" name="recurringDonation" value="No" /> No
+              </div>
+              <div class="mb-3">
+                <label for="inspiration" class="form-label"
+                  >What inspired you to make this donation?</label
+                >
+                <textarea
+                  class="form-control"
+                  id="inspiration"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="specialInstructions" class="form-label"
+                  >Comments or Special Instructions</label
+                >
+                <textarea
+                  class="form-control"
+                  id="specialInstructions"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Volunteer with Us Modal -->
+    <div
+      class="modal fade"
+      id="volunteerModal"
+      tabindex="-1"
+      aria-labelledby="volunteerModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="volunteerModalLabel">
+              Volunteer with Us
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="volunteerName" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="volunteerName"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="volunteerEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="volunteerEmail"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="volunteerPhone" class="form-label"
+                  >Phone Number</label
+                >
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="volunteerPhone"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="preferredContactVolunteer" class="form-label"
+                  >Preferred Method of Contact</label
+                ><br />
+                <input
+                  type="radio"
+                  name="preferredContactVolunteer"
+                  value="Email"
+                  required
+                />
+                Email
+                <input
+                  type="radio"
+                  name="preferredContactVolunteer"
+                  value="Phone"
+                />
+                Phone
+              </div>
+              <div class="mb-3">
+                <label for="areasOfInterest" class="form-label"
+                  >Areas of Interest</label
+                ><br />
+                <input type="checkbox" value="Mentoring" /> Mentoring young
+                entrepreneurs<br />
+                <input type="checkbox" value="Teaching" /> Teaching a skill<br />
+                <input type="checkbox" value="Events" /> Helping with events<br />
+                <input type="checkbox" value="Fundraising" /> Assisting with
+                fundraising efforts<br />
+                <input type="checkbox" value="Youth Projects" /> Supporting
+                youth projects<br />
+                <input type="checkbox" value="Other" /> Other:
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Specify Other"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="availability" class="form-label">Availability</label
+                ><br />
+                <input
+                  type="radio"
+                  name="availability"
+                  value="Weekdays"
+                  required
+                />
+                Weekdays
+                <input type="radio" name="availability" value="Weekends" />
+                Weekends
+                <input
+                  type="radio"
+                  name="availability"
+                  value="Specific Dates"
+                />
+                Specific Dates:
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Specify Dates"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="skillsExperience" class="form-label"
+                  >Tell us about your skills and experience</label
+                >
+                <textarea
+                  class="form-control"
+                  id="skillsExperience"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="whyVolunteer" class="form-label"
+                  >Why do you want to volunteer with us?</label
+                >
+                <textarea
+                  class="form-control"
+                  id="whyVolunteer"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="volunteerExperience" class="form-label"
+                  >Have you volunteered with any other organizations before? If
+                  yes, please describe your experience</label
+                >
+                <textarea
+                  class="form-control"
+                  id="volunteerExperience"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contribute Materials Modal -->
+    <div
+      class="modal fade"
+      id="contributeModal"
+      tabindex="-1"
+      aria-labelledby="contributeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contributeModalLabel">
+              Contribute Materials
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="contributeName" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="contributeName"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="contributeEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="contributeEmail"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="contributePhone" class="form-label"
+                  >Phone Number</label
+                >
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="contributePhone"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="preferredContactContribute" class="form-label"
+                  >Preferred Method of Contact</label
+                ><br />
+                <input
+                  type="radio"
+                  name="preferredContactContribute"
+                  value="Email"
+                  required
+                />
+                Email
+                <input
+                  type="radio"
+                  name="preferredContactContribute"
+                  value="Phone"
+                />
+                Phone
+              </div>
+              <div class="mb-3">
+                <label for="typeOfMaterials" class="form-label"
+                  >Type of Materials</label
+                ><br />
+                <input type="checkbox" value="Sewing Machines" /> Sewing
+                Machines<br />
+                <input type="checkbox" value="Computers" /> Computers<br />
+                <input type="checkbox" value="Farming Equipment" /> Farming
+                Equipment<br />
+                <input type="checkbox" value="Other" /> Other:
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Specify Other"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="materialQuantity" class="form-label"
+                  >Quantity</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="materialQuantity"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="materialCondition" class="form-label"
+                  >Condition of Materials</label
+                ><br />
+                <input
+                  type="radio"
+                  name="materialCondition"
+                  value="New"
+                  required
+                />
+                New
+                <input
+                  type="radio"
+                  name="materialCondition"
+                  value="Gently Used"
+                />
+                Gently Used
+                <input type="radio" name="materialCondition" value="Other" />
+                Other:
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Specify Condition"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="dropoffDate" class="form-label"
+                  >Preferred Drop-off/Pick-up Date</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  id="dropoffDate"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="inspirationContribute" class="form-label"
+                  >What inspired you to donate these materials?</label
+                >
+                <textarea
+                  class="form-control"
+                  id="inspirationContribute"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="specialInstructionsContribute" class="form-label"
+                  >Additional Comments or Instructions</label
+                >
+                <textarea
+                  class="form-control"
+                  id="specialInstructionsContribute"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer id="footer" class="footer position-relative dark-background">
       <div class="container footer-top">
         <div class="row gy-4">
