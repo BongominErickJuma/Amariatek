@@ -5,7 +5,7 @@ const id = parseInt(params.get("id"));
 fetch("https://bongominerickjuma.github.io/Amariatek/assets/json/data.json")
   .then((response) => response.json()) // Parse the JSON file into a JavaScript object
   .then((data) => {
-    console.log(data)
+    console.log(data);
     // Use the data as needed
     const program = data.programs[id - 1];
     const programName = document.getElementById("program-name");
@@ -75,19 +75,48 @@ fetch("https://bongominerickjuma.github.io/Amariatek/assets/json/data.json")
       impacts.appendChild(p);
     });
     const testimonials = document.getElementById("testimonials");
+    testimonials.innerHTML = "";
+
     program.testimonials?.forEach((testimony) => {
-      const h6 = document.createElement("h6");
-      h6.textContent = `${testimony.name}${
-        testimony.position ? ` - ${testimony.position}` : ""
-      },`;
+      // Create the outer swiper-slide div
+      const swiperSlide = document.createElement("div");
+      swiperSlide.className = "swiper-slide";
 
-      h6.className = "text-muted";
+      // Create the testimonial-item div
+      const testimonialItem = document.createElement("div");
+      testimonialItem.className = "testimonial-item";
 
+      // Create the h3 for the name
+      const h3 = document.createElement("h3");
+      h3.textContent = testimony.name;
+
+      // Create the p tag for the testimonial text
       const p = document.createElement("p");
-      p.textContent = testimony.testimonial;
 
-      testimonials.appendChild(h6);
-      testimonials.appendChild(p);
+      // Add the opening quote icon
+      const quoteIconLeft = document.createElement("i");
+      quoteIconLeft.className = "bi bi-quote quote-icon-left";
+      p.appendChild(quoteIconLeft);
+
+      // Add the span with testimonial text
+      const span = document.createElement("span");
+      span.textContent = testimony.testimonial;
+      p.appendChild(span);
+
+      // Add the closing quote icon
+      const quoteIconRight = document.createElement("i");
+      quoteIconRight.className = "bi bi-quote quote-icon-right";
+      p.appendChild(quoteIconRight);
+
+      // Append the h3 and p to the testimonial-item div
+      testimonialItem.appendChild(h3);
+      testimonialItem.appendChild(p);
+
+      // Append the testimonial-item to the swiper-slide div
+      swiperSlide.appendChild(testimonialItem);
+
+      // Finally, append the swiper-slide to the testimonials container
+      testimonials.appendChild(swiperSlide);
     });
   })
   .catch((error) => console.error("Error fetching JSON:", error));
