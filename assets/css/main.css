@@ -915,6 +915,12 @@ h6 {
   z-index: 3;
 }
 
+.hero .hero-img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 50% 50% 10px 10px;
+}
+
 .hero .member-row {
   z-index: 3;
   position: relative;
