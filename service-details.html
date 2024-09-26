@@ -41,68 +41,35 @@
   </head>
 
   <body class="starter-page-page">
-    <header id="header" class="header sticky-top">
-      <div class="topbar d-flex align-items-center">
-        <div
-          class="container d-flex justify-content-center justify-content-md-between"
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
         >
-          <div class="contact-info d-flex align-items-center">
-            <i class="bi bi-envelope d-flex align-items-center"
-              ><a href="mailto:contact@example.com"
-                >info@amariatekfoundation.org</a
-              ></i
-            >
-            <i class="bi bi-phone d-flex align-items-center ms-4"></i>
-            <span>+256-704-241-494 / +256-393-194-359</span>
-          </div>
-          <div class="social-links d-none d-md-flex align-items-center">
-            <a href="https://x.com/AmariatekF" target="_blank"
-              ><i class="bi bi-twitter-x"></i
-            ></a>
-            <a href="https://www.facebook.com/AmariatekF" target="_blank"
-              ><i class="bi bi-facebook"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/amaritekfoundationofficial
-          "
-              target="_blank"
-              ><i class="bi bi-instagram"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/company/amariatek-foundation/"
-              target="_blank"
-              ><i class="bi bi-linkedin"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-      <!-- End Top Bar -->
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/images/logo.png" alt="" />
+          <h1 class="sitename d-none d-md-block">Amariatek Foundation</h1>
+        </a>
 
-      <div class="branding d-flex align-items-center">
-        <div
-          class="container position-relative d-flex align-items-center justify-content-between"
-        >
-          <a href="index.html" class="logo d-flex align-items-center">
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <!-- <img src="assets/img/logo.png" alt=""> -->
-            <h1 class="sitename">Amariatek Foundation</h1>
-          </a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html" class="active">Programs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-          <nav id="navmenu" class="navmenu">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Programs</a></li>
-
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="/donate.html" class="btn-get-started">DONATE</a></li>
-            </ul>
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-          </nav>
-        </div>
+        <a class="btn-getstarted" href="donate.html">DONATE</a>
       </div>
     </header>
+
     <main class="main">
+      <div class="mt-5"></div>
       <!-- Service Details Section -->
       <section id="service-details" class="service-details section">
         <div class="container">
@@ -123,7 +90,7 @@
 
             <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
               <img
-                src="assets/img/services.jpg"
+                src="assets/images/bg1.JPG"
                 alt=""
                 class="img-fluid services-img"
               />
@@ -276,10 +243,12 @@
       aria-labelledby="donateModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="donateModalLabel">Donate Now</h5>
+          <div class="modal-header bg-primary">
+            <h5 class="modal-title text-white" id="donateModalLabel">
+              Donate Now
+            </h5>
             <button
               type="button"
               class="btn-close"
@@ -421,10 +390,10 @@
       aria-labelledby="volunteerModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="volunteerModalLabel">
+          <div class="modal-header bg-primary">
+            <h5 class="modal-title text-white" id="volunteerModalLabel">
               Volunteer with Us
             </h5>
             <button
@@ -574,10 +543,10 @@
       aria-labelledby="contributeModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="contributeModalLabel">
+          <div class="modal-header bg-primary">
+            <h5 class="modal-title text-white" id="contributeModalLabel">
               Contribute Materials
             </h5>
             <button

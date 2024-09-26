@@ -6,10 +6,24 @@
     <title>Amariatek | Welcome.</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
-
-    <!-- Favicons -->
-    <!-- <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
@@ -40,67 +54,31 @@
     <link href="assets/css/main.css" rel="stylesheet" />
   </head>
 
-  <body class="starter-page-page">
-    <header id="header" class="header sticky-top">
-      <div class="topbar d-flex align-items-center">
-        <div
-          class="container d-flex justify-content-center justify-content-md-between"
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
         >
-          <div class="contact-info d-flex align-items-center">
-            <i class="bi bi-envelope d-flex align-items-center"
-              ><a href="mailto:contact@example.com"
-                >info@amariatekfoundation.org</a
-              ></i
-            >
-            <i class="bi bi-phone d-flex align-items-center ms-4">
-              <span>+256-704-241-494 / +256-393-194-359</span></i
-            >
-          </div>
-          <div class="social-links d-none d-md-flex align-items-center">
-            <a href="https://x.com/AmariatekF" target="_blank"
-              ><i class="bi bi-twitter-x"></i
-            ></a>
-            <a href="https://www.facebook.com/AmariatekF" target="_blank"
-              ><i class="bi bi-facebook"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/amaritekfoundationofficial
-          "
-              target="_blank"
-              ><i class="bi bi-instagram"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/company/amariatek-foundation/"
-              target="_blank"
-              ><i class="bi bi-linkedin"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-      <!-- End Top Bar -->
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/images/logo.png" alt="" />
+          <h1 class="sitename d-none d-md-block">Amariatek Foundation</h1>
+        </a>
 
-      <div class="branding d-flex align-items-center">
-        <div
-          class="container position-relative d-flex align-items-center justify-content-between"
-        >
-          <a href="index.html" class="logo d-flex align-items-center">
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="assets/images/logo.png" alt="" />
-            <!-- <h1 class="sitename">Amariatek Foundation</h1> -->
-          </a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html#hero" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Programs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-          <nav id="navmenu" class="navmenu">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Programs</a></li>
-
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="/donate.html" class="btn-get-started">DONATE</a></li>
-            </ul>
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-          </nav>
-        </div>
+        <a class="btn-getstarted" href="donate.html">DONATE</a>
       </div>
     </header>
 
@@ -109,23 +87,16 @@
       <section id="hero" class="hero section dark-background">
         <img src="assets/images/hero-bg.jpg" alt="" data-aos="fade-in" />
 
-        <div
-          id="hero-carousel"
-          data-bs-interval="5000"
-          class="container carousel carousel-fade"
-          data-bs-ride="carousel"
-        >
-          <!-- Slide 1 -->
-          <div class="carousel-item active">
-            <div class="carousel-container">
-              <h2 class="animate__animated animate__fadeInDown">
-                <span>Empowering Young</span> People To Be The Lead Change.
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h2 data-aos="fade-up" data-aos-delay="100">
+                Empowering Young People To Be The Lead Change.
               </h2>
             </div>
           </div>
         </div>
       </section>
-
       <!-- /Hero Section -->
 
       <!-- About Section -->
