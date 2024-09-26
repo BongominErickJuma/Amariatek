@@ -881,55 +881,6 @@ h6 {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  display: flex;
-  align-items: start;
-  justify-content: center;
-}
-
-.hero .sign-up-form {
-  margin-top: 20px;
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 7px;
-  background: color-mix(in srgb, var(--default-color) 5%, white 90%);
-  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
-  display: flex;
-}
-
-.hero .sign-up-form input[type="email"] {
-  background-color: transparent;
-  border: 0;
-  padding: 4px 10px;
-  width: 100%;
-}
-
-.hero .sign-up-form input[type="email"]:focus-visible {
-  outline: none;
-}
-
-.hero .sign-up-form input[type="submit"] {
-  border: 0;
-  box-shadow: none;
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-  padding: 8px 20px 10px 20px;
-  border-radius: 7px;
-  color: var(--contrast-color);
-  transition: 0.3s;
-}
-
-.hero .sign-up-form input[type="submit"]:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
-}
-
-.hero img {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
 }
 
 .hero:before {
@@ -940,53 +891,69 @@ h6 {
   z-index: 2;
 }
 
-.hero .container {
+.hero h2 {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-weight: 700;
+
+  z-index: 3;
+  position: relative;
+}
+
+.hero h2 span {
+  color: var(--accent-color);
+}
+
+.hero p {
+  color: var(--contrast-color);
+  z-index: 3;
+  position: relative;
+  text-transform: capitalize;
+}
+.hero img {
   position: relative;
   z-index: 3;
 }
 
-.hero h2 {
-  margin-bottom: 30px;
-  font-size: 48px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.hero p {
-  color: var(--heading-color);
-  max-width: 80%;
-  animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
-}
-
-.hero .carousel-container {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
+.hero .member-row {
+  z-index: 3;
   position: relative;
-  min-height: 75vh;
-  padding-top: 60px;
 }
 
-.hero h2 span {
-  text-decoration: underline;
+.member-row .member-img {
+  display: inline;
+}
+.member-row .member-img img {
+  margin-left: -15px;
+}
+.member-row .member-img img:first-child {
+  margin-left: 0; /* Remove the margin for the first item */
 }
 
-.hero .carousel-control-prev,
-.hero .carousel-control-next {
-  width: 10%;
+.member-row .member-img img {
+  width: 50px; /* Adjust the size of the images */
+  height: 50px;
+  border: 2px solid white; /* Optional: add a white border around each image */
+  object-fit: cover;
+  z-index: 1;
 }
 
-.hero .carousel-control-next-icon,
-.hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 48px;
-  line-height: 1;
-  width: auto;
-  height: auto;
+.member-row .member-img img + img {
+  z-index: 0;
 }
+.hero .btn-get-started {
+  z-index: 3;
+  position: relative;
+  background: inherit;
+  border: 2px solid var(--dk-maroon) !important;
+  padding: 12px 10px !important;
+}
+.hero .btn-get-started i {
+  background-color: var(--dk-yellow);
+  color: white;
+  border-radius: 50%;
+}
+
 .navmenu .btn-get-started,
 .navmenu .btn-get-started:focus,
 .hero .btn-get-started {
@@ -1011,10 +978,6 @@ h6 {
 }
 
 @media (min-width: 1024px) {
-  .hero p {
-    max-width: 60%;
-  }
-
   .hero .carousel-control-prev,
   .hero .carousel-control-next {
     width: 5%;
@@ -1022,11 +985,6 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  .hero .carousel-control-next-icon,
-  .hero .carousel-control-prev-icon {
-    font-size: 24px;
-  }
-
   .hero h2 {
     font-size: 24px;
   }
