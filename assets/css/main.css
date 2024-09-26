@@ -895,7 +895,7 @@ h6 {
   margin-bottom: 30px;
   text-transform: capitalize;
   font-weight: 700;
-
+  font-size: 48px;
   z-index: 3;
   position: relative;
 }
@@ -916,9 +916,8 @@ h6 {
 }
 
 .hero .hero-img {
+  display: block;
   width: 100%;
-  margin: 0 auto;
-  border-radius: 50% 50% 10px 10px;
 }
 
 .hero .member-row {
