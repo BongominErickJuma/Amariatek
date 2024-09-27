@@ -2,7 +2,8 @@
   "programs": [
     {
       "id": 1,
-      "program_name": "Level Up",
+      "imageSrc": "assets/images/programs/transforming_lives/level_up_1.jpg",
+      "program_name": "Transforming lives (Level Up)",
       "problem": {
         "description": "According to the Uganda National Planning Authority (NPA), 41% of the Ugandan population faces unemployment and limited educational opportunities. Among them, young girls and women constitute 60%. This significant unemployment rate, coupled with limited access to quality education, leaves many adolescents and youth, especially in marginalized communities, without the skills and opportunities needed to secure decent work and improve their livelihoods."
       },
@@ -88,7 +89,8 @@
     },
     {
       "id": 2,
-      "program_name": "Thrive at Work",
+      "imageSrc": "assets/images/programs/unlocking_potentials/unlocking3.jpg",
+      "program_name": "Unlocking Potential (Thrive at Work)",
       "problem": {
         "description": "Uganda has the second youngest population in the world, with more than 78% of the population below the age of 30. Despite this youthfulness, a significant portion of the young labor force is neither in education nor any form of employment. The employment landscape in Uganda is shifting, with a growing emphasis on soft skills. According to a 2022 report by the Federation of Uganda Employers and the International Labour Organization, 80% of employers now prioritize skills such as innovation, problem-solving, and teamwork. Annually, over 400,000 individuals graduate from higher education institutions in Uganda, yet an estimated 280,000 find themselves unemployed or underemployed. This highlights a critical mismatch between the skills taught in educational institutions and those required by employers. The demand for 21st-century skills is rapidly increasing as the job market evolves. According to UNICEF, young people in Uganda must navigate a transforming world where technology, migration, climate change, and rapidly changing job markets are reshaping society. Despite this, many adolescents and youth lack essential skills such as innovation, critical thinking, communication, creativity, teamwork, and collaboration."
       },
@@ -175,7 +177,8 @@
     },
     {
       "id": 3,
-      "program_name": "I Thrive",
+      "imageSrc": "assets/images/programs/beyond_classroom/beyond1.jpg",
+      "program_name": "Beyond the Classroom (I Thrive)",
       "problem": {
         "description": "Uganda has the second youngest population in the world, with more than 78% of its population below the age of 30. Despite this youthfulness, many adolescents and youth face significant challenges as they transition into adulthood. These challenges include mental health breakdowns, alcohol and substance abuse, and teenage pregnancies. Mental Health: Approximately 22.9% of children and 24.2% of adults in Uganda suffer from mental disorders. Depression and anxiety are prevalent, with 4.6% of the population experiencing depression and 2.9% dealing with anxiety. Substance Abuse: Substance abuse is a significant issue, with 60-71% of school-going children (ages 12 to 24) using addictive substances. Alcohol is the most commonly abused substance, with 23.3% of adolescents having used it. Teenage Pregnancies: According to the Uganda Bureau of Statistics, 25% of Ugandan girls become pregnant by age 19. This high rate of teenage pregnancies is a major concern, leading to school dropouts and limiting future opportunities for young girls."
       },
@@ -317,7 +320,8 @@
     },
     {
       "id": 4,
-      "program_name": "Elevate",
+      "imageSrc": "assets/images/programs/empowering_small_businesses/esb1.jpg",
+      "program_name": "Empowering small businesses (Elevate)",
       "problem": {
         "description": "According to the Uganda Registration Services Bureau, over 75% of new businesses fail within the first two years of operation in Uganda. A survey by the Federation of Small and Medium Enterprises found that 36% of small businesses are at risk of closing due to cash flow and operational challenges. The high failure rate is often attributed to a lack of proper business management skills, limited access to financial resources, and inadequate support systems."
       },
