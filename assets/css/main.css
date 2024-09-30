@@ -652,9 +652,9 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 90%);
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -665,7 +665,7 @@ h6 {
 }
 
 .footer h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
@@ -683,7 +683,7 @@ h6 {
 
 .footer .footer-links ul i {
   padding-right: 2px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 0;
 }
 
@@ -698,7 +698,7 @@ h6 {
 }
 
 .footer .footer-links ul a {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: white;
   display: inline-block;
   line-height: 1;
 }
@@ -741,7 +741,7 @@ h6 {
 
 .footer .footer-newsletter .newsletter-form input[type="submit"] {
   border: 0;
-  font-size: 16px;
+  font-size: 14px;
   padding: 0 20px;
   margin: -8px -9px -8px 0;
   background: var(--accent-color);
@@ -763,11 +763,6 @@ h6 {
 
 .footer .copyright p {
   margin-bottom: 0;
-}
-
-.footer .credits {
-  margin-top: 6px;
-  font-size: 13px;
 }
 
 /*--------------------------------------------------------------
@@ -855,7 +850,7 @@ h6 {
   position: relative;
   padding: 80px 0;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
@@ -884,8 +879,9 @@ h6 {
 
 .hero h2 {
   margin: 0;
-  font-size: 44px;
-  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 400;
 }
 
 .hero p {
